@@ -1,0 +1,472 @@
+/* line 5, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+html {
+  min-width: 80%;
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  padding: 10px 150px;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #ffcc99;
+}
+
+/* line 16, ../sass/style.scss */
+.top {
+  margin: 0 auto;
+  background-color: #fffbf5;
+  height: 65px;
+}
+/* line 21, ../sass/style.scss */
+.top li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin-left: 8px;
+}
+/* line 30, ../sass/style.scss */
+.top li span {
+  display: block;
+  margin-top: 13px;
+  font-size: 15px;
+}
+/* line 37, ../sass/style.scss */
+.top .twitter {
+  margin-left: 25%;
+}
+/* line 39, ../sass/style.scss */
+.top .twitter span {
+  font-size: 35px;
+  color: #80a8cc;
+  margin-top: 5px;
+}
+/* line 46, ../sass/style.scss */
+.top .googleplus {
+  float: right;
+}
+/* line 50, ../sass/style.scss */
+.top li:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #80a8cc;
+  color: #fafaf4;
+}
+/* line 55, ../sass/style.scss */
+.top li:nth-child(1) span {
+  margin-top: 10px;
+  font-size: 22px;
+}
+/* line 61, ../sass/style.scss */
+.top .search_combined {
+  position: relative;
+}
+/* line 65, ../sass/style.scss */
+.top .content_search {
+  margin-left: 260px;
+  margin-top: 15px;
+}
+/* line 68, ../sass/style.scss */
+.top .content_search input {
+  height: 30px;
+  width: 170px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+}
+/* line 75, ../sass/style.scss */
+.top .content_search a span {
+  position: absolute;
+  top: -8px;
+  left: 143px;
+  color: #b8babe;
+  font-size: 22px;
+}
+/* line 84, ../sass/style.scss */
+.top .top_icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-right: 12px;
+  border: 1px solid #e5e1da;
+}
+
+/* line 96, ../sass/style.scss */
+.container div {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+/* line 102, ../sass/style.scss */
+.container .intro {
+  width: 20%;
+  background: #80a8cc;
+  color: white;
+  height: 1000px;
+}
+/* line 108, ../sass/style.scss */
+.container .intro .avatar {
+  height: 400px;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 115, ../sass/style.scss */
+.container .intro .avatar img {
+  margin: 20px auto 0px;
+  display: block;
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+}
+/* line 123, ../sass/style.scss */
+.container .intro .avatar p {
+  width: 200px;
+  margin: 25px auto;
+  line-height: 20px;
+  font-size: 0.8em;
+}
+/* line 130, ../sass/style.scss */
+.container .intro .avatar .page_name {
+  font-size: 1.5em;
+}
+/* line 134, ../sass/style.scss */
+.container .intro .avatar .follow {
+  height: 24px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #739bbf;
+  align-content: space-between;
+  font-size: 1em;
+}
+/* line 143, ../sass/style.scss */
+.container .intro .intro_image {
+  height: 200px;
+}
+/* line 146, ../sass/style.scss */
+.container .intro .intro_image img {
+  height: 60px;
+  width: 33.43%;
+  margin: 0px -5px -3px 0;
+}
+/* line 152, ../sass/style.scss */
+.container .intro .activities {
+  margin-left: 25px;
+}
+/* line 155, ../sass/style.scss */
+.container .intro .activities span {
+  color: #739bbf;
+  font-size: 15px;
+}
+/* line 160, ../sass/style.scss */
+.container .intro .activities a {
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  text-decoration: underline;
+}
+/* line 167, ../sass/style.scss */
+.container .intro .activities p {
+  margin: 8px 10px;
+}
+/* line 171, ../sass/style.scss */
+.container .intro .activities .activities_title {
+  height: 30px;
+}
+/* line 175, ../sass/style.scss */
+.container .intro .activities .icon:before {
+  top: 2px;
+  margin: auto;
+  position: relative;
+  right: 3px;
+}
+/* line 184, ../sass/style.scss */
+.container .content {
+  width: 60%;
+  background-color: #f2eee8;
+  height: 1000px;
+  border-top: 1px solid #f2eee8;
+}
+/* line 190, ../sass/style.scss */
+.container .content .relation {
+  height: 70px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  top: 30px;
+  left: 35px;
+  text-align: center;
+  background-color: #fffbf5;
+}
+/* line 202, ../sass/style.scss */
+.container .content .relation li {
+  float: left;
+  width: 25%;
+  margin-top: -5px;
+}
+/* line 207, ../sass/style.scss */
+.container .content .relation li li:nth-child(1) {
+  border-bottom: 2px solid blue;
+}
+/* line 211, ../sass/style.scss */
+.container .content .relation li .name {
+  font-size: 0.8em;
+  margin-top: 25px;
+  color: #ddd8cc;
+}
+/* line 217, ../sass/style.scss */
+.container .content .relation li .value {
+  font-size: 1em;
+  margin-top: -10px;
+  color: #5e5c56;
+  font-weight: bold;
+}
+/* line 227, ../sass/style.scss */
+.container .content .main_content {
+  background-color: #fffbf5;
+  width: 90%;
+  margin: 0 auto;
+  height: 900px;
+  top: 60px;
+  left: 35px;
+  position: relative;
+}
+/* line 236, ../sass/style.scss */
+.container .content .main_content li {
+  width: 90%;
+  margin: 40px 30px -90px 0;
+  float: right;
+  position: relative;
+}
+/* line 242, ../sass/style.scss */
+.container .content .main_content li .tweet_avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-right: 18px;
+  margin-left: 0px;
+}
+/* line 249, ../sass/style.scss */
+.container .content .main_content li .tweet_author {
+  color: #3d3e48;
+}
+/* line 252, ../sass/style.scss */
+.container .content .main_content li .user_name {
+  color: #ded9ce;
+}
+/* line 255, ../sass/style.scss */
+.container .content .main_content li .publish_time {
+  float: right;
+  color: #d6d3d0;
+}
+/* line 259, ../sass/style.scss */
+.container .content .main_content li p {
+  width: 90%;
+  margin-left: 58px;
+  line-height: 20px;
+  color: #a09d97;
+}
+/* line 265, ../sass/style.scss */
+.container .content .main_content li .tweet_action {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  height: auto;
+  left: 60px;
+  top: -50px;
+  color: #c7c2b1;
+}
+/* line 274, ../sass/style.scss */
+.container .content .main_content li .tweet_action li {
+  float: left;
+  width: 20%;
+  margin-right: -70px;
+  font-size: 17px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+/* line 283, ../sass/style.scss */
+.container .content .main_content li .tweet_action .ellipsis {
+  margin-left: 23px;
+}
+/* line 287, ../sass/style.scss */
+.container .content .main_content li .tweet_action .maximize {
+  float: right;
+  font-size: 15px;
+  margin-right: -40px;
+}
+/* line 293, ../sass/style.scss */
+.container .content .main_content li .tweet_image {
+  height: 230px;
+  width: 90%;
+  display: block;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+/* line 305, ../sass/style.scss */
+.container .relationship {
+  width: 20%;
+  background-color: #fffbf5;
+  margin: 0 auto;
+  height: 1000px;
+  border-top: 1px solid #e8e4de;
+}
+/* line 312, ../sass/style.scss */
+.container .relationship .trends {
+  margin: 15px auto 0 25px;
+  color: #85837e;
+}
+/* line 316, ../sass/style.scss */
+.container .relationship .trends li {
+  margin-bottom: 10px;
+}
+/* line 319, ../sass/style.scss */
+.container .relationship .trends li span a {
+  color: #9ebbd4;
+  font-size: 0.8em;
+}
+/* line 325, ../sass/style.scss */
+.container .relationship .trends .following {
+  margin: 15px auto 0 25px;
+}
+/* line 328, ../sass/style.scss */
+.container .relationship .trends .following .follow_tittle {
+  margin: 0 auto;
+}
+/* line 334, ../sass/style.scss */
+.container .relationship .following {
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+/* line 339, ../sass/style.scss */
+.container .relationship .following .follow_tittle {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 343, ../sass/style.scss */
+.container .relationship .following .follow_tittle .following_more {
+  color: #9ebbd4;
+}
+/* line 347, ../sass/style.scss */
+.container .relationship .following .follow_tittle a {
+  text-decoration: none;
+  color: #98948d;
+}
+/* line 352, ../sass/style.scss */
+.container .relationship .following .follow_tittle .following_more {
+  float: right;
+  position: relative;
+  right: 40px;
+}
+/* line 360, ../sass/style.scss */
+.container .relationship .follow_members {
+  width: 100%;
+}
+/* line 364, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend {
+  position: relative;
+  left: 20px;
+}
+/* line 367, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend span {
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 371, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend .fol span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 375, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend .other_name {
+  color: #76756e;
+  font-size: 1em;
+  margin-right: 50px;
+}
+/* line 380, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend .other_position {
+  color: #cdc8ba;
+  font-size: 13px;
+}
+/* line 384, ../sass/style.scss */
+.container .relationship .follow_members ul li .other_friend a {
+  text-decoration: none;
+}
+/* line 390, ../sass/style.scss */
+.container .relationship .follow_members ul img {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}

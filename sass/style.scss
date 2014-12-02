@@ -1,0 +1,401 @@
+@import "compass/reset";
+@import "compass/css3";
+
+html {
+  min-width: 80%;
+  //  min-height: auto;
+}
+
+body {
+  padding: 10px 150px;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #ffcc99;
+}
+
+.top {
+  margin: 0 auto;
+  background-color: #fffbf5;
+  height: 65px;
+
+  li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-left: 8px;
+
+    span {
+      display: block;
+      margin-top: 13px;
+      font-size: 15px;
+    }
+  }
+
+  .twitter {
+    margin-left: 25%;
+    span {
+      font-size: 35px;
+      color: #80a8cc;
+      margin-top: 5px;
+    }
+  }
+
+  .googleplus {
+    float: right;
+  }
+
+  li:nth-child(1) {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #80a8cc;
+    color: #fafaf4;
+    span {
+      margin-top: 10px;
+      font-size: 22px;
+    }
+  }
+
+  .search_combined {
+    position: relative;
+  }
+
+  .content_search {
+    margin-left: 260px;
+    margin-top: 15px;
+    input {
+      height: 30px;
+      width: 170px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+    }
+    a span {
+      position: absolute;
+      top: -8px;
+      left: 143px;
+      color: #b8babe;
+      font-size: 22px;
+    }
+  }
+
+  .top_icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 12px;
+    border: 1px solid #e5e1da;
+  }
+
+}
+
+.container {
+
+  div {
+    float: left;
+    display: block;
+    overflow: hidden;
+  }
+
+  .intro {
+    width: 20%;
+    background: #80a8cc;
+    color: white;
+    height: 1000px;
+
+    .avatar {
+      height: 400px;
+      text-align: center;
+      align-content: center;
+      width: 100%;
+      margin: 0 auto;
+
+      img {
+        margin: 20px auto 0px;
+        display: block;
+        height: 80px;
+        width: 80px;
+        border-radius: 80px;
+      }
+
+      p {
+        width: 200px;
+        margin: 25px auto;
+        line-height: 20px;
+        font-size: 0.8em;
+      }
+
+      .page_name {
+        font-size: 1.5em;
+      }
+
+      .follow {
+        height: 24px;
+        width: 120px;
+        border-radius: 10px;
+        background-color: #739bbf;
+        align-content: space-between;
+        font-size: 1em;
+      }
+    }
+    .intro_image {
+      height: 200px;
+
+      img {
+        height: 60px;
+        width: 33.43%;
+        margin: 0px -5px -3px 0;
+      }
+    }
+    .activities {
+      margin-left: 25px;
+
+      span {
+        color: #739bbf;
+        font-size: 15px;
+      }
+
+      a {
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        text-decoration: underline;
+      }
+
+      p {
+        margin: 8px 10px;
+      }
+
+      .activities_title {
+        height: 30px;
+      }
+
+      .icon:before {
+        top: 2px;
+        margin: auto;
+        position: relative;
+        right: 3px;
+      }
+    }
+  }
+
+  .content {
+    width: 60%;
+    background-color: #f2eee8;
+    height: 1000px;
+    border-top: 1px solid #f2eee8;
+
+    .relation {
+      height: 70px;
+      width: 90%;
+      margin: 0 auto;
+      background-color: white;
+      overflow: hidden;
+      position: relative;
+      top: 30px;
+      left: 35px;
+      text-align: center;
+      background-color: #fffbf5;
+
+      li {
+        float: left;
+        width: 25%;
+        margin-top: -5px;
+
+        li:nth-child(1) {
+          border-bottom: 2px solid blue;
+        }
+
+        .name {
+          font-size: 0.8em;
+          margin-top: 25px;
+          color: #ddd8cc;
+        }
+
+        .value {
+          font-size: 1em;
+          margin-top: -10px;
+          color: #5e5c56;
+          font-weight: bold;
+        }
+
+      }
+    }
+
+    .main_content {
+      background-color: #fffbf5;
+      width: 90%;
+      margin: 0 auto;
+      height: 900px; //auto
+      top: 60px;
+      left: 35px;
+      position: relative;
+
+      li {
+        width: 90%;
+        margin: 40px 30px -90px 0;
+        float: right;
+        position: relative;
+
+        .tweet_avatar {
+          height: 40px;
+          width: 40px;
+          border-radius: 40px;
+          margin-right: 18px;
+          margin-left: 0px;
+        }
+        .tweet_author {
+          color: #3d3e48;
+        }
+        .user_name {
+          color: #ded9ce;
+        }
+        .publish_time {
+          float: right;
+          color: #d6d3d0;
+        }
+        p {
+          width: 90%;
+          margin-left: 58px;
+          line-height: 20px;
+          color: #a09d97;
+        }
+        .tweet_action {
+          overflow: hidden;
+          position: relative;
+          width: 90%;
+          height: auto;
+          left: 60px;
+          top: -50px;
+          color: #c7c2b1;
+
+          li {
+            float: left;
+            width: 20%;
+            margin-right: -70px;
+            font-size: 17px;
+            padding-bottom: 10px;
+            margin-bottom: 40px;
+          }
+
+          .ellipsis {
+            margin-left: 23px;
+          }
+
+          .maximize {
+            float: right;
+            font-size: 15px;
+            margin-right: -40px;
+          }
+        }
+        .tweet_image {
+          height: 230px;
+          width: 90%;
+          display: block;
+          margin-top: 20px;
+          margin-left: 60px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .relationship {
+    width: 20%;
+    background-color: #fffbf5;
+    margin: 0 auto;
+    height: 1000px;
+    border-top: 1px solid #e8e4de;
+
+    .trends {
+      margin: 15px auto 0 25px;
+      color: #85837e;
+
+      li {
+        margin-bottom: 10px;
+
+        span a {
+          color: #9ebbd4;
+          font-size: 0.8em;
+        }
+      }
+
+      .following {
+        margin: 15px auto 0 25px;
+
+        .follow_tittle {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .following {
+      position: relative;
+      top: 20px;
+      left: 15px;
+
+      .follow_tittle {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .following_more {
+          color: #9ebbd4;
+        }
+
+        a {
+          text-decoration: none;
+          color: #98948d;
+        }
+
+        .following_more {
+          float: right;
+          position: relative;
+          right: 40px;
+        }
+      }
+    }
+
+    .follow_members {
+      width: 100%;
+      ul {
+        li {
+          .other_friend {
+            position: relative;
+            left: 20px;
+            span {
+              display: block;
+              margin-bottom: 5px;
+            }
+            .fol span {
+              display: inline-block;
+              vertical-align: middle;
+            }
+            .other_name {
+              color: #76756e;
+              font-size: 1em;
+              margin-right: 50px;
+            }
+            .other_position {
+              color: #cdc8ba;
+              font-size: 13px;
+            }
+            a {
+              text-decoration: none;
+            }
+          }
+
+        }
+        img {
+          height: 30px;
+          width: 30px;
+          border-radius: 30px;
+        }
+      }
+    }
+
+  }
+
+}
+
