@@ -73,6 +73,13 @@ body {
       background-color: transparent;
     }
     a span {
+      position: relative;
+      top: -8px;
+      left: 10px;
+      color: #b8babe;
+      font-size: 22px;
+    }
+    a span {
       position: absolute;
       top: -8px;
       left: 143px;
